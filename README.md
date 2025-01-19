@@ -34,23 +34,23 @@ This project implements a multi-agent AI system for financial analysis and web-b
   - `yfinance`
   - `duckduckgo_search`
 
-Install Dependencies
-bash
-Copy
-Edit
+Install dependencies:
+```bash
 pip install -r requirements.txt
+
 Usage
 Running the Financial Agent
 To run the financial agent for specific queries:
 
-bash
+```bash
 Copy
 Edit
 python financial_agent.py
-Launching the Playground App
+
+## Launching the Playground App
 To start the interactive Playground:
 
-bash
+```bash
 Copy
 Edit
 python playground.py
@@ -58,11 +58,13 @@ Access the app at http://localhost:8000.
 
 Example Queries
 Web Search:
-Query: "What are the latest developments in AI?"
-Results: Includes summarized insights with source links.
+
+"What are the latest developments in AI?"
+Results include summarized insights with source links.
 Financial Analysis:
-Query: "Summarize analyst recommendations and share the latest news for NVDA."
-Results: Fetches stock prices, news, and financial insights for NVIDIA.
+
+"Summarize analyst recommendations and share the latest news for NVDA."
+Fetches stock prices, news, and financial insights for NVIDIA.
 Technologies Used
 Groq Language Models: For natural language processing and tool integration.
 DuckDuckGo: Web search engine for real-time information retrieval.
