@@ -67,36 +67,4 @@ Technologies Used
 Groq Language Models: For natural language processing and tool integration.
 DuckDuckGo: Web search engine for real-time information retrieval.
 YFinanceTools: Access to stock market and financial data.
-Playground: Interactive web app interface for agent collaboration
-
-Usage
-Running the Financial Agent
-To run the financial agent for specific queries:
-
-bash
-Copy
-Edit
-python financial_agent.py
-Launching the Playground App
-To start the interactive Playground:
-
-bash
-Copy
-Edit
-python playground.py
-Access the app at http://localhost:8000.
-
-Example Queries
-Web Search:
-
-"What are the latest developments in AI?"
-Results include summarized insights with source links.
-Financial Analysis:
-
-"Summarize analyst recommendations and share the latest news for NVDA."
-Fetches stock prices, news, and financial insights for NVIDIA.
-Technologies Used
-Groq Language Models: For natural language processing and tool integration.
-DuckDuckGo: Web search engine for real-time information retrieval.
-YFinanceTools: Access to stock market and financial data.
 Playground: Interactive web app interface for agent collaboration.
